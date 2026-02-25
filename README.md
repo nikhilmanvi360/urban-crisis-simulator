@@ -3,6 +3,8 @@
 
 <div align="center">
 
+![Root Killerz Banner](assets/root_killerz_banner.png)
+
 ```text
     ____  ____  ____  ______     __ __ ____ _       __    ______ ____  _____
    / __ \/ __ \/ __ \/_  __/    / //_//  _// /      / /   / ____// __ \/__  /
