@@ -13,13 +13,12 @@
 
 **Designed and Developed by Team Root Killerz**
 
-[![BITM Ballari](https://img.shields.io/badge/Award-3rd%20Prize-gold?style=for-the-badge&logo=github)](https://www.bitm.edu.in/)
+---
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/Frontend-React%2019-blue?logo=react)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/ML-Python%203.9-3776AB?logo=python)](https://www.python.org/)
-[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)](https://www.mongodb.com/)
+### 🏆 Achievement
+**Won 3rd Prize in BITM College, Ballari (Ballari Hackathon - Challenge 6)**
+
+---
 
 ---
 
