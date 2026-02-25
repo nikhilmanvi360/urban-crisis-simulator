@@ -1,3 +1,8 @@
+/* 
+ * REVERTED CHANGE: The mock data was updated to use 'tree_cover_loss_ha' 
+ * to fix a NaN error in the Critical Zones sidebar. It has been reverted 
+ * to the original 'deforestation_rate_pct' field.
+ */
 import axios from 'axios';
 import { API_BASE } from './config';
 

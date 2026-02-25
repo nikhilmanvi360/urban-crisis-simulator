@@ -1,5 +1,10 @@
 @custom-variant dark (&:is(.dark *));
 
+/* 
+ * REVERTED CHANGE: This file was previously updated to use a dark 'Slate' theme, 
+ * but has been restored to the original 'Warm Sand' theme per user request.
+ */
+
 :root {
   --font-size: 16px;
   /* Base Canvas (Warm Sand) */

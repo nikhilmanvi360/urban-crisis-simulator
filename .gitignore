@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+frontend/dist/
+frontend/frontend_out.log
+smart_city_ml/python_out.log
+
