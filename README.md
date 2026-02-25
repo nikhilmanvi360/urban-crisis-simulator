@@ -9,10 +9,6 @@
 
 ---
 
-### 🏆 Achievement
-**Won 3rd Prize in BITM College, Ballari (Ballari Hackathon - Challenge 6)**
-
----
 
 ---
 
