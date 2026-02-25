@@ -1,78 +1,84 @@
-# CitySentinel AI : Urban Crisis Intelligence
+# 🛡️ CitySentinel AI: Urban Crisis Intelligence
 ### *Predictive Urban Environmental Crisis Simulator (PUECS)*
 
-**CitySentinel AI** is a state-of-the-art urban crisis management platform designed for the modern smart city. Built for the **Ballary Hackathon (Challenge 6)**, it uses predictive modeling and cascading risk analysis to forecast environmental emergencies — from AQI spikes to water stress — and provides actionable policy recommendations for city administrators.
+<div align="center">
+
+![CitySentinel Hero](https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&q=80&w=1200&h=400)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/Frontend-React%2019-blue?logo=react)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/ML-Python%203.9-3776AB?logo=python)](https://www.python.org/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)](https://www.mongodb.com/)
 
 ---
+
+### 🏆 Achievement
+**Won 3rd Prize in BITM College, Ballari (Ballari Hackathon - Challenge 6)**
+
+---
+
+</div>
+
+## 📖 Overview
+
+**CitySentinel AI** is a state-of-the-art urban crisis management platform designed for the modern smart city. It uses predictive modeling and cascading risk analysis to forecast environmental emergencies — from AQI spikes to water stress — and provides actionable policy recommendations for city administrators.
 
 ## 🌟 Key Features
 
-- **Cascading Risk Analysis**: Models dependencies between urban systems (Infrastructure → Ecology → Health) to predict how a localized failure (like a traffic surge) amplifies into a city-wide AQI crisis.
-- **Monte Carlo Policy Simulations**: Stress-test urban resilience by simulating up to 5 concurrent policy scenarios side-by-side.
-- **Decision Support System**: Ranked policy interventions based on "Efficiency Score" (Risk Reduction vs. Implementation Cost).
-- **Zonal Risk Heatmap**: A high-fidelity temporal visualization of how environmental risks propagate across 5 key urban zones over a 30-day window.
-- **ML-Powered Forecaster**: Integrates with a Python microservice using Prophet and XGBoost to provide confidence-weighted crisis probabilities.
-
----
+-   🚀 **Cascading Risk Analysis**: Models dependencies between urban systems (Infrastructure → Ecology → Health) to predict how a localized failure amplifies into a city-wide crisis.
+-   🎲 **Monte Carlo Policy Simulations**: Stress-test urban resilience by simulating up to 5 concurrent policy scenarios side-by-side.
+-   ⚖️ **Decision Support System**: Ranked policy interventions based on "Efficiency Score" (Risk Reduction vs. Implementation Cost).
+-   🗺️ **Zonal Risk Heatmap**: High-fidelity temporal visualization of risk propagation across 5 urban zones.
+-   🤖 **ML-Powered Forecaster**: Advanced forecasting using **Prophet** and **XGBoost** for confidence-weighted crisis probabilities.
 
 ## 🏗️ Architecture
 
-The project is structured as a robust 3-tier microservice architecture:
+```mermaid
+graph TD
+    A[Frontend: React 19] --> B[API Gateway: Node.js]
+    B --> C[ML Service: FastAPI]
+    B --> D[Database: MongoDB]
+    C --> E[Forecasting Engine: Prophet/XGBoost]
+```
 
 | Component | Technology | Responsibility |
 | :--- | :--- | :--- |
-| **Frontend** | React, TypeScript, Tailwind 4, Recharts | Interactive Dashboards & Simulations |
-| **Backend** | Node.js, Express, MongoDB | Risk Engines, API Orchestration, Data Persistence |
-| **ML Service** | Python (FastAPI), Prophet, XGBoost | Time-series Forecasting & Risk Quantification |
+| **Frontend** | React, TypeScript, Tailwind 4 | Interactive Dashboards & Simulations |
+| **Backend** | Node.js, Express, MongoDB | Risk Engines & API Orchestration |
+| **ML Service** | Python, Prophet, XGBoost | Time-series Forecasting & Risk Quantification |
 
----
+## 🚀 Quick Start
 
-## 🚀 Getting Started
-
-### Prerequisites
+### 1. Requirements
 - Node.js (v18+)
 - Python (3.9+)
-- MongoDB (Local or Atlas)
+- MongoDB
 
-### 1. Backend Setup
-```bash
-cd backend
-npm install
-# Configure your .env (PORT, MONGODB_URI)
-npm start
-```
+### 2. Installation
 
-### 2. ML Service Setup
 ```bash
-cd smart_city_ml
-pip install -r requirements.txt
-python main.py
-```
+# Clone the repository
+git clone https://github.com/nikhilmanvi360/urban-crisis-simulator.git
+cd urban-crisis-simulator
 
-### 3. Frontend Setup
-```bash
-cd frontend
-npm install
-npm run dev
+# Setup Backend
+cd backend && npm install && npm start
+
+# Setup ML Service
+cd ../smart_city_ml && pip install -r requirements.txt && python main.py
+
+# Setup Frontend
+cd ../frontend && npm install && npm run dev
 ```
 
 ---
 
-## 📊 Technical Requirements Compliance
-
-This implementation strictly adheres to the Challenge 6 requirements:
-- ✅ **Cascading Risks**: Implemented in `backend/engine/cascadeEngine.js`.
-- ✅ **Policy Simulation**: Interactive multi-parameter inputs in `frontend/src/app/pages/Simulate.tsx`.
-- ✅ **Uncertainty Quantification**: Confidence bands (±N%) displayed on all forecast and simulation results.
-- ✅ **Crisis Intelligence**: Crisis Probability, Time-to-Impact, and Affected Zone forecasts provided via ML endpoints.
+## 🎖️ BITM Ballari Hackathon
+This project was developed for the **Ballary Hackathon** at **BITM College**, focusing on **Challenge 6: Urban Resilience**. It secured the **3rd Prize** for its innovative approach to cascading risk modeling and intuitive decision-support interface.
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend**: React 19, Lucide Icons, Framer Motion, Recharts.
-- **Backend**: Node.js, Mongoose, Express.
-- **ML**: Python, Pandas, Prophet, Scikit-learn.
-- **Styling**: Vanilla CSS + Tailwind CSS 4.0.
-
----
+<div align="center">
+Built with ❤️ by the CitySentinel Team
+</div>
