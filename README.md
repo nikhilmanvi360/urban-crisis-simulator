@@ -1,9 +1,19 @@
-# 🛡️ CitySentinel AI: Urban Crisis Intelligence
+# 🏙️ CitySentinel AI: Urban Crisis Intelligence
 ### *Predictive Urban Environmental Crisis Simulator (PUECS)*
 
 <div align="center">
 
-![CitySentinel Hero](https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&q=80&w=1200&h=400)
+```text
+    ____  ____  ____  ______     __ __ ____ _       __    ______ ____  _____
+   / __ \/ __ \/ __ \/_  __/    / //_//  _// /      / /   / ____// __ \/__  /
+  / /_/ / / / / / / / / /      / ,<   / / / /      / /   / __/  / /_/ /  / / 
+ / _, _/ /_/ / /_/ / / /      / /| |_/ / / /___   / /___/ /___ / _, _/  / /__
+/_/ |_|\____/\____/ /_/      /_/ |_/___//_____/  /_____/_____//_/ |_| /____/
+```
+
+**Designed and Developed by Team Root Killerz**
+
+[![BITM Ballari](https://img.shields.io/badge/Award-3rd%20Prize-gold?style=for-the-badge&logo=github)](https://www.bitm.edu.in/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/Frontend-React%2019-blue?logo=react)](https://react.dev/)
